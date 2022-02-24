@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Caste__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Caste</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Caste__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BC -1</fullName>
+                <default>false</default>
+                <label>BC -1</label>
+            </value>
+            <value>
+                <fullName>BC -2</fullName>
+                <default>false</default>
+                <label>BC -2</label>
+            </value>
+            <value>
+                <fullName>OC -1</fullName>
+                <default>false</default>
+                <label>OC -1</label>
+            </value>
+            <value>
+                <fullName>OC -2</fullName>
+                <default>false</default>
+                <label>OC -2</label>
+            </value>
+            <value>
+                <fullName>SC -1</fullName>
+                <default>false</default>
+                <label>SC -1</label>
+            </value>
+            <value>
+                <fullName>SC -2</fullName>
+                <default>false</default>
+                <label>SC -2</label>
+            </value>
+            <value>
+                <fullName>ST -1</fullName>
+                <default>false</default>
+                <label>ST -1</label>
+            </value>
+            <value>
+                <fullName>ST -2</fullName>
+                <default>false</default>
+                <label>ST -2</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>OBC</controllingFieldValue>
+            <valueName>BC -1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OBC</controllingFieldValue>
+            <valueName>BC -2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OC</controllingFieldValue>
+            <valueName>OC -1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OC</controllingFieldValue>
+            <valueName>OC -2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SC</controllingFieldValue>
+            <valueName>SC -1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SC</controllingFieldValue>
+            <valueName>SC -2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ST</controllingFieldValue>
+            <valueName>ST -1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ST</controllingFieldValue>
+            <valueName>ST -2</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

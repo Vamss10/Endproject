@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <active>true</active>
+    <label>All</label>
+    <picklistValues>
+        <picklist>Caste__c</picklist>
+        <values>
+            <fullName>OBC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ST</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hobbies__c</picklist>
+        <values>
+            <fullName>Dancing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Playing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reading</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Meal_Type__c</picklist>
+        <values>
+            <fullName>NON- VEG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VEG</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Student_Group__c</picklist>
+        <values>
+            <fullName>Rowena Ravenclaw</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salazar Slytherin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Caste__c</picklist>
+        <values>
+            <fullName>BC -1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OC -1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC -1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ST -1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

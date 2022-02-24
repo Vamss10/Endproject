@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Room_type</fullName>
+    <active>true</active>
+    <label>Girls</label>
+    <picklistValues>
+        <picklist>Room_Type__c</picklist>
+        <values>
+            <fullName>Four Bed Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Four Bed Room AC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

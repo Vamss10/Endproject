@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stop_the_process</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISNEW(),RecordType.DeveloperName  &lt;&gt;  &apos;Boys&apos;)</errorConditionFormula>
+    <errorMessage>YOU CAN&apos;T INSERT THE RECORD</errorMessage>
+</ValidationRule>

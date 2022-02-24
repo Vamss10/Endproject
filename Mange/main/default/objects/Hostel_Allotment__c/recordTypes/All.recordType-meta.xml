@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>HAllot</compactLayoutAssignment>
+    <label>All</label>
+    <picklistValues>
+        <picklist>Room_Type__c</picklist>
+        <values>
+            <fullName>Four Bed Room AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Three Bed Room AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Two Bed Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Two Bed Room AC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

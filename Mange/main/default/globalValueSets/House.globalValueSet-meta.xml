@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Godric Gryffindor</fullName>
+        <default>false</default>
+        <label>Godric Gryffindor</label>
+    </customValue>
+    <customValue>
+        <fullName>Helga Hufflepuff</fullName>
+        <default>false</default>
+        <label>Helga Hufflepuff</label>
+    </customValue>
+    <customValue>
+        <fullName>Rowena Ravenclaw</fullName>
+        <default>false</default>
+        <label>Rowena Ravenclaw</label>
+    </customValue>
+    <customValue>
+        <fullName>Salazar Slytherin</fullName>
+        <default>false</default>
+        <label>Salazar Slytherin</label>
+    </customValue>
+    <masterLabel>House</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

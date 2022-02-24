@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_in_date</fullName>
+    <active>false</active>
+    <errorConditionFormula>(Allotted_From_Date__c &gt;=  DATEVALUE( Checked_In_Date_Time__c )     ||     DATEVALUE( Checked_In_Date_Time__c )&lt;= Allotted_to_Date__c  )</errorConditionFormula>
+    <errorDisplayField>Checked_In_Date_Time__c</errorDisplayField>
+    <errorMessage>Enter the date from Allotted from date - to date</errorMessage>
+</ValidationRule>
